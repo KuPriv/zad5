@@ -1,0 +1,61 @@
+body {
+  background: url(/img/back.jpg);
+}
+
+h2 {
+  color: crimson;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+#result {
+  font-size: 1rem;
+  color: crimson;
+}
+
+.decor {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: aqua;
+  margin: 15px auto 30px;
+}
+
+.itd_circle {
+  background-color: darksalmon;
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid aqua;
+  border-radius: 50%;
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: url(/img/chumba.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  height: 600px;
+}
+
+.flex-item-1 {
+  background-color: bisque;
+  border: 5px solid aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: flex-end;
+  padding-right: 20px;
+  height: 70vh;
+  width: 50vh;
+}

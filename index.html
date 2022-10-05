@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/fontello.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Веба 5</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="flex-item-1">
+        <h2>Введите цену:</h2>
+        <input name="field1" type="number" />
+        <h2>Введите кол-во товара:</h2>
+        <input name="field2" type="number" />
+        <button id="button_send" onclick="return calc_shaur();">
+          Рассчитать
+        </button>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <h5 id="result" class="text-center itd_circle"></h5>
+          <div class="line"></div>
+        </div>
+      </form>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/js.js"></script>
+  </body>
+</html>
