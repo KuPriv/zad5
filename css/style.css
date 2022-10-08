@@ -1,5 +1,5 @@
 body {
-  background: url(/img/back.jpg);
+  background: url(/zad5/img/back.jpg);
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
 }
 
 .container {
-  background: url(/img/chumba.jpg);
+  background: url(/zad5/img/chumba.jpg);
   display: flex;
   align-items: center;
   justify-content: space-around;
