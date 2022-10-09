@@ -46,6 +46,50 @@ h2 {
   align-items: center;
 }
 
+input {
+  background-color: lightgray;
+  color: red;
+  border: 3px dashed crimson;
+}
+
+button {
+  border-style: solid;
+  color: crimson;
+  border-width: 1px;
+  font-size: 1rem;
+  display: block;
+  border: 3px solid crimson;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 10px;
+  background-color: rgb(101, 249, 205);
+  -webkit-transition: width 2s, height 2s, background-color 2s,
+    -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+button:hover {
+  background-color: rgb(92, 255, 86);
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+a:hover {
+  color: violet;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .container {
   background: url(/zad5/img/chumba.jpg);
   display: flex;
